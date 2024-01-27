@@ -3,47 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather forecast app</title>
   </head>
   <body>
-    <header>
-      <input type="search" placeholder="Enter a city..." required />
-      <input type="submit" value="Search" />
-    </header>
-    <main>
-      <div>
-        <h1>Kyiv</h1>
-        <p>
-          Saturday, 27 January, 20:20 <br />
-          <strong>0°C </strong>❄️
-        </p>
-      </div>
-      <div>
-        <p>
-          wind <br />
-          9km/h <br />
-          humidity <br />
-          90%
-        </p>
-      </div>
-    </main>
-    <footer>
-      Coded by
-      <a href="https://github.com/ISlynko" target="_blank"> Inna Slynko,</a>
-      is
-      <a
-        href="https://github.com/ISlynko/Weather-forecast-app-try3"
-        target="_blank"
-      >
-        open-sourced on GitHub
-      </a>
-      and
-      <a
-        href="https://weather-shecodes-forecast-app.netlify.app/"
-        target="_blank"
-      >
-        hosted on Netlify</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <input type="search" placeholder="Enter a city..." required />
+        <input type="submit" value="Search" />
+      </header>
+      <main>
+        <div>
+          <h1>Kyiv</h1>
+          <p>
+            Saturday, 27 January, 20:20 <br />
+            <strong>0°C </strong>❄️
+          </p>
+        </div>
+        <div>
+          <p>
+            wind <br />
+            9km/h <br />
+            humidity <br />
+            90%
+          </p>
+        </div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/ISlynko" target="_blank"> Inna Slynko,</a>
+        is
+        <a
+          href="https://github.com/ISlynko/Weather-forecast-app-try3"
+          target="_blank"
+        >
+          open-sourced on GitHub
+        </a>
+        and
+        <a
+          href="https://weather-shecodes-forecast-app.netlify.app/"
+          target="_blank"
+        >
+          hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>

@@ -1,0 +1,16 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 189, 189) 0%,
+    rgb(255, 216, 168) 62%,
+    rgb(255, 248, 168) 100.7%
+  );
+  font-family: "Open Sans", sans-serif;
+}
+.weather-app {
+  background-color: white;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 16px;
+}
