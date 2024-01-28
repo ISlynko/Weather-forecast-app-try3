@@ -72,7 +72,18 @@ header {
 .weather-app-tempersture-description {
   font-size: 20px;
 }
-
+.weather-app-wind,
+.weather-app-humidity {
+  border: none;
+  background-color: #ffe495;
+  border-radius: 6px;
+  padding: 5px 10px 5px 10px;
+  margin: 5px 10px 5px 5px;
+}
+.weather-app-wind-details,
+.weather-app-humidity-details {
+  text-align: center;
+}
 footer {
   padding: 30px 0 0 0;
   text-align: center;
